@@ -1,12 +1,14 @@
 import { StyleSheet } from "react-native";
-import { colors, space } from "../../themes";
-
+import { colors } from "./themes";
 
 export const appStyles = StyleSheet.create({
   safeArea: {
     flex: 1,
-    alignItems: "center",
+    backgroundColor: colors.background
+  },
+  container: {
+    flex: 1,
     justifyContent: "center",
-    backgroundColor: colors.white
+    alignItems: "center"
   }
 });
