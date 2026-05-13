@@ -1,7 +1,6 @@
 import React from "react";
 import { Pressable, Text } from "react-native";
 
-// Importamos los estilos de los botones
 import { styles } from "./ButtonStyle";
 
 interface ButtonProps {

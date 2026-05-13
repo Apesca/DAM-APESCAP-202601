@@ -4,7 +4,6 @@ import { colors, sizes } from "../../../themes";
 
 export const styles = StyleSheet.create({
 
-  // Contenedor principal
   container: {
     flex: 1,
 
@@ -38,7 +37,6 @@ export const styles = StyleSheet.create({
     marginBottom: sizes.xxl,
   },
 
-  // Contenido formulario
   content: {
     width: "100%",
   },
