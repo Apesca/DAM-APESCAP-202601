@@ -27,6 +27,7 @@ const LoginPage = () => {
       title="LOGIN"
     >
 
+      {/* Formulario */}
       <LoginForm
         onSubmit={handleLogin}
       />
